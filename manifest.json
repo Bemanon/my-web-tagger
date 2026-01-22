@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "网页书签标签器",
+  "version": "1.0",
+  "description": "记录网页并打上标签",
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

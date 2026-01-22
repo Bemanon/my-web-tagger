@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 300px; padding: 10px; font-family: sans-serif; }
+    .tag-item { border-bottom: 1px solid #eee; padding: 8px 0; }
+    .tag-item a { color: blue; text-decoration: none; display: block; font-weight: bold; }
+    .tag-name { font-size: 12px; color: #666; background: #f0f0f0; padding: 2px 5px; border-radius: 3px; }
+    input { width: 100%; margin-bottom: 10px; padding: 5px; box-sizing: border-box; }
+    button { width: 100%; cursor: pointer; background: #4285f4; color: white; border: none; padding: 8px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h3>添加新标签</h3>
+  <input type="text" id="tagInput" placeholder="输入标签名称 (如: 工作, 购物)">
+  <button id="saveBtn">保存当前页面</button>
+  
+  <hr>
+  <h3>我的标签记录</h3>
+  <div id="tagList"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
